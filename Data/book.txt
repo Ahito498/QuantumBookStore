@@ -1,13 +1,20 @@
-EBook
-Digital Nile Adventures
-2021
-100
-9789776543219
 DemoBook
 Introduction to Ancient Egypt
 1998
 0
 9789779876543
+PaperBook
+el fajr 
+2020
+900
+4354365464
+50
+PaperBook
+elfajr
+2020
+500
+43534543543
+50
 PaperBook
 Test Paper
 2022

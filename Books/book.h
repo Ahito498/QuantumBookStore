@@ -36,7 +36,7 @@ public:
     virtual void saveToFile(std::ofstream& out) const = 0;
     virtual void decreaseStock(int quantity) {}
 
-    int getStock();
+    virtual int getStock() const { return 0; }
 };
 
 #endif

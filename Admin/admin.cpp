@@ -82,6 +82,7 @@ namespace AdminSession {
             inventory.push_back(make_unique<demobook>(title, year, price, isbn));
         }
 
+        saveInventory(); // Save after adding
         cout << "Book added successfully.\n";
     }
 
@@ -90,6 +91,7 @@ namespace AdminSession {
         cout << "Enter number of book to remove: ";
         int index = InputValidator::getValidatedInt(1, inventory.size()) - 1;
         inventory.erase(inventory.begin() + index);
+        saveInventory(); // Save after removing
         cout << "Book removed.\n";
     }
 

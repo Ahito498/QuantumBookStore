@@ -18,7 +18,3 @@ void book::setPrice(double newPrice) {
         price = newPrice;
     }
 }
-
-int book::getStock() {
-    return 0;
-}
