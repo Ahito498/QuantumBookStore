@@ -1,0 +1,26 @@
+EBook
+Digital Nile Adventures
+2021
+100
+9789776543219
+DemoBook
+Introduction to Ancient Egypt
+1998
+0
+9789779876543
+PaperBook
+Test Paper
+2022
+50
+ISBNPAPER
+5
+EBook
+Test EBook
+2021
+30
+ISBNEBOOK
+DemoBook
+Test Demo
+2000
+0
+ISBNDEMO

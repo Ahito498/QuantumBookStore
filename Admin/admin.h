@@ -2,15 +2,22 @@
 // Created by Rashwan's on 08/07/2025.
 //
 
-#ifndef ADMIN_H
-#define ADMIN_H
 
+#ifndef ADMINSESSION_H
+#define ADMINSESSION_H
 
+#include <vector>
+#include <memory>
+#include "../Books/book.h"
 
-class admin {
+namespace AdminSession {
+    void loadInventory();
+    void saveInventory();
+    void viewInventory();
+    void addBook();
+    void adminMenu();
+    void removeBook();
+    std::vector<std::unique_ptr<book>>& getInventory();
+}
 
-};
-
-
-
-#endif //ADMIN_H
+#endif // ADMINSESSION_H
