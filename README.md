@@ -267,5 +267,35 @@ Choice: 0
 Logged out.
 ```
 
+### 9. Customer: Add EBook to Cart (Quantity defaults to 1)
+```
+1. View Books
+2. Add to Cart
+3. View Cart
+4. Remove from Cart
+5. Checkout
+0. Logout
+Choice: 2
+
+===== Book Inventory =====
+[1] [Paper Book] The Cairo Code | Year: 2020 | Price: 150 | ISBN: 9789771451234 | Stock: 10
+[2] [E-Book] Digital Nile Adventures | Year: 2021 | Price: 100 | ISBN: 9789776543219
+[3] [Demo Book] Introduction to Ancient Egypt | Year: 1998 | Price: 0 | ISBN: 9789779876543 | Not For Sale
+[4] [Paper Book] el fajr  | Year: 2020 | Price: 900 | ISBN: 4354365464 | Stock: 50
+Enter book number to add: 2
+Book added to cart.
+
+1. View Books
+2. Add to Cart
+3. View Cart
+4. Remove from Cart
+5. Checkout
+0. Logout
+Choice: 3
+
+----- Your Cart -----
+[1] Digital Nile Adventures (E-Book) | Quantity: 1 | Subtotal: 100
+```
+
 ## License
 MIT License (see LICENSE file) 

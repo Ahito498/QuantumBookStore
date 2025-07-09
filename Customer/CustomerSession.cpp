@@ -71,9 +71,14 @@ namespace CustomerSession {
         cout << "Enter book number to add: ";
         int index = InputValidator::getValidatedInt(1, AdminSession::getInventory().size()) - 1;
         book* selected = AdminSession::getInventory()[index].get();
+
         if (selected->isPurchasable()) {
-            cout << "Enter quantity: ";
-            int qty = InputValidator::getValidatedInt(1, selected->getStock());
+            int qty = 1;
+            // Only ask for quantity if it's a PaperBook
+            if (dynamic_cast<PaperBook*>(selected)) {
+                cout << "Enter quantity: ";
+                qty = InputValidator::getValidatedInt(1, selected->getStock());
+            }
             cart.addItem(selected, qty);
             cout << "Book added to cart.\n";
         } else {
